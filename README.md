@@ -1,8 +1,5 @@
-# e4040-2020Fall-Project-HAPY-zh2261
-e4040-2020fall-project-aaa created by GitHub Classroom
+# Residual Attention Network
 
-This is the ECBM4040 final project repository for group HAPY.
+In this project, I implement and train four residual attention networks (Attention-56, Attention-92, Attention-128, AttentionNeXt-56) as proposed by F. Wang et al. in the paper Residual Attention Network for Image Classification (https://arxiv.org/pdf/1704.06904.pdf). After experimenting with different parameters and slight modification of the architectures, I am able to achieve error rates of about 10% for each these three models on CIFAR-10 dataset, which are around 5% higher than the error rates attained by the authors as shown in the paper. I also implement and train three baseline residual networks (ResNet50V2, ResNet101V2, and ResNet152V2) in order to investigate whether residual attention networks are better subject to the same training parameters. As the three baseline models only attain error rates of about 20%, residual attention networks successfully demonstrate a noticeable advantage in image classification task.
 
-In this project, I aim to implement residual attention networks as proposed by F. Wang, M. Jiang, et al. in the paper Residual Attention Network for Image Classification.
-
-There are four notebooks in the repository. 
+Cheers!
